@@ -41,12 +41,12 @@ local M = {
     hint = "#7eca9c",
     error = "#f7768e",
 
-    --
+    -- Bearded colors
 
     comment = "#50505a",
 
     string = "#42DD76",
-    string_documentation = "#b3c87e", -- from #b3c87ecc
+    string_documentation = "#b3c87e",
     character = "#42DD76",
     string_escape = "#42DD76",
 
@@ -59,14 +59,14 @@ local M = {
     constant_macro = "#D62C2C",
 
     variable = "#FF478D",
-    variable_builtin = "#14E5D4", -- semantic: defaultLibrary
+    variable_builtin = "#14E5D4",
     parameter = "#E66DFF",
-    field = "#FF7135", -- struct/class members
+    field = "#FF7135",
     property = "#FF7135",
 
-    type = "#A95EFF", -- classes, user types
+    type = "#A95EFF",
     type_definition = "#A95EFF",
-    type_builtin = "#A95EFF", -- primitives / storage types
+    type_builtin = "#A95EFF",
     type_qualifier = "#14E5D4",
     storageclass = "#14E5D4",
 
@@ -85,9 +85,9 @@ local M = {
     keyword = "#FFB638",
     keyword_operator = "#FFB638",
     keyword_return = "#FFB638",
-    keyword_import = "#FFB638", -- e.g., C/C++ #include, C++ import
+    keyword_import = "#FFB638",
     keyword_export = "#FFB638",
-    keyword_function = "#14E5D4", -- matches “storage/keyword.function” in theme
+    keyword_function = "#14E5D4",
     conditional = "#FFB638",
     repeat_ = "#FFB638",
     exception = "#FFB638",
@@ -96,16 +96,14 @@ local M = {
     include = "#FFB638",
     define = "#FFB638",
 
-    punctuation_delimiter = "#c5c5cb", -- from #c5c5cb66 (no alpha in Nvim)
+    punctuation_delimiter = "#c5c5cb",
     punctuation_bracket = "#c5c5cb",
     punctuation_special = "#c5c5cb",
 
-    -- HTML/XML tags (if you care about UI/markup too)
     tag = "#28A9FF",
     tag_attribute = "#FFB638",
     tag_delimiter = "#28A9FF",
 
-    -- Decorators/annotations (where applicable)
     attribute = "#E66DFF",
 }
 

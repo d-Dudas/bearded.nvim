@@ -7,7 +7,6 @@ local M = {}
 M.palette = default_palette
 M.style = config.defaults()
 
----Override defaults (optional)
 ---@param opts { palette?: table, style?: table }
 function M.setup(opts)
     opts = opts or {}
@@ -20,7 +19,6 @@ function M.setup(opts)
 end
 
 
----Apply the colorscheme
 function M.load()
     if vim.g.colors_name then
         vim.cmd('highlight clear')
