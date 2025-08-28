@@ -78,6 +78,7 @@ function M.apply(p, style)
     hl('DiagnosticWarn', { fg = p.warn })
     hl('DiagnosticInfo', { fg = p.info })
     hl('DiagnosticHint', { fg = p.hint })
+    hl('DiagnosticUnnecessary', { fg = p.warn, underline = true })
 
 
     hl('DiagnosticVirtualTextError', { fg = p.error, bg = p.gray1 })
