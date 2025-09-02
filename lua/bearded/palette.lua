@@ -31,7 +31,7 @@ local M = {
 
     -- UI specifics
     cursor = "#ffffff",
-    selection = "#000000",
+    selection = "#cccccc",
     comment = "#808080",
     line = "#121212",
     border = "#2e2e2e",
